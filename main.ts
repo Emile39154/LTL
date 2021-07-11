@@ -1,0 +1,15 @@
+LCD1IN8.LCD_Init()
+LCD1IN8.LCD_Clear()
+LCD1IN8.LCD_ClearBuf()
+LCD1IN8.LCD_Filling(COLOR.WHITE)
+LCD1IN8.LCD_SetBL(123)
+LCD1IN8.DrawPoint(
+24,
+28,
+27482,
+DOT_PIXEL.DOT_PIXEL_2
+)
+LCD1IN8.LCD_Display()
+basic.forever(function () {
+	
+})
